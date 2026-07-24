@@ -25,11 +25,11 @@ with open("emoji_all.json", "r", encoding="utf-8") as f:
 
 # ===== 模型映射表（只写模型名，不带编号） =====
 MODEL_MAP = {
-    "snhpromax": {
-        "gpt": "GPT_weights_v2ProPlus/snhpromax-e15.ckpt",
-        "sovits": "SoVITS_weights_v2ProPlus/snhpromax_e8_s88.pth",
+    "preset1": {
+        "gpt": "xxx.ckpt",
+        "sovits": "xxx.pth",
     },
-    "dingzhen": {
+    "preset2": {
         "gpt": "GPT_weights_v2/丁真GPT.ckpt",
         "sovits": "SoVITS_weights_v2/丁真SoVITS.pth",
     },
@@ -39,7 +39,7 @@ MODEL_MAP = {
 SEED_MAP = {
     0: -1,            # 随机
     1: 3593077178,
-    2: 1234567890,      # 预留，可自行修改
+    2: 1234567890,      # 预留，先找到不错的种子再加进去
 }
 
 # 记录当前已加载的模型，避免重复切换
