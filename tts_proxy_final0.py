@@ -23,13 +23,13 @@ with open("emoji_all.json", "r", encoding="utf-8") as f:
 
 # ===== 模型映射表（只写模型名，不带编号） =====
 MODEL_MAP = {
-    "snh": {
-        "gpt": "GPT_weights_v2ProPlus/snhpromax-e15.ckpt",
-        "sovits": "SoVITS_weights_v2ProPlus/snhpromax_e8_s88.pth",
+    " ": {
+        "gpt": "GPT_weights_v2ProPlus/ .ckpt",
+        "sovits": "SoVITS_weights_v2ProPlus/ .pth",
     },
-    "dingzhen": {
-        "gpt": "GPT_weights_v2/丁真GPT.ckpt",
-        "sovits": "SoVITS_weights_v2/丁真SoVITS.pth",
+    "1": {
+        "gpt": "GPT_weights_v2/1T.ckpt",
+        "sovits": "SoVITS_weights_v2/1.pth",
     },
 }
 
